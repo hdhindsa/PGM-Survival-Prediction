@@ -1,4 +1,10 @@
-################################################################################################
+### General Comments ######################################################################################################################
+# Dataset used: NACD dataset which can be found at http://pssp.srv.ualberta.ca/predictors/32
+#This file is used to learn the sructure and parameters of a PGM. Then it draws a diagram of the structure and then 
+#shows an example plot of the survival curve of a individual patient from the dataset.
+#It then calculates the brier score of the learnt model and prints it
+
+#The model being learnt here is to learn a model with different all the survival nodes in the same model. 
 #######################################################################################
 #implement model 3
 
@@ -17,6 +23,7 @@ install.packages("plyr")
 library(plyr)
 
 
+# df is the NACD dataset which can be found at http://pssp.srv.ualberta.ca/predictors/32
 
 setwd('C:\\Program Files\\RStudio\\R')
 
