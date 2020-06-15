@@ -1,3 +1,9 @@
+### General Comments ######################################################################################################################
+# Dataset used: NACD dataset which can be found at http://pssp.srv.ualberta.ca/predictors/32
+#This file is used to learn the sructure and parameters of a PGM. Then it draws a diagram of the structure and then 
+#shows an example plot of the survival curve of a individual patient from the dataset.
+#It then calculates the brier score of the learnt model 
+#The model here learns different models with one survival node for each model and then enforces an arc between all survival nodes combining the models into one model. 
 ##############################################################
 #Structure 4#####################################
 
